@@ -1,0 +1,318 @@
+/* color palette
+#2B2042 - dark blue
+#8099AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+ */
+
+
+ html {
+    box-sizing: border-box;
+}
+
+ header,footer {
+    /* background: #2B2042; */
+    background-color: rgb(110, 133, 151);
+
+    color: #8099AE;
+ 
+   
+   
+   
+}
+
+header {
+    color:#EDF2F4;
+   
+ 
+}
+
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    color:#2B2042;
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+
+}
+
+
+section h2, {
+    color:#2B2042;
+    margin:0;
+
+  
+}
+
+
+
+#con {
+    padding-left: 20px;
+
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #2B2042;
+  }
+
+/* h1 {
+    font-size: 40px;
+    float:left;
+    margin-left: 1px;
+    margin-top: 50px;
+    text-align: center;
+
+    
+} */
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    height: 100%;
+    background-color: #8099AE;
+ 
+ 
+}
+
+
+.content-wrap h1 {
+    position: sticky;
+    background-color: #2B2042;
+    height: 132px;
+    padding: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.content-wrap {
+    max-width: 950px;
+    overflow: auto;
+    width: 850px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.content-wrap-p {
+    max-width: 950px;
+    overflow: auto;
+    width: 850px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.content-wrap-p h1 {
+    position: sticky;
+    background-color: #2B2042;
+    height: 210px;
+    padding: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Contact page */
+
+.content-wrap-c {
+    max-width: 950px;
+    overflow: auto;
+    width: 850px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.content-wrap-c h1 {
+    position: sticky;
+    background-color: #2B2042;
+    height: 210px;
+    padding: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.body-content-c {
+    background-color: rgb(110, 133, 151);
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #8099AE;
+    margin-bottom: 375px;
+   
+
+}
+
+
+#input1 {
+    font-size: 16px;
+    width: 810px;
+    border:solid rgba(255, 255, 255, 0.829)
+
+}
+
+#input2 {
+    font-size: 16px;
+    width: 810px;
+    border:solid rgba(255, 255, 255, 0.829)
+
+}
+
+#input3 {
+    font-size: 16px;
+    height: 200px;
+    width: 810px;
+    border:solid rgba(255, 255, 255, 0.829)
+
+}
+
+#submit {
+    background: #2B2042;
+    color: #8099AE;
+    padding: 8px 30px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+    
+
+
+.footer-wrap-c {
+    text-align: center;
+    background: #2B2042;
+    height:2px;
+   
+
+}
+
+
+
+
+
+nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: rgb(247, 241, 241);
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+
+
+
+.img1 {
+    float: left;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.body-content {
+    background-color: rgb(110, 133, 151);
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #8099AE;
+    margin-bottom: 500px;
+
+}
+
+
+/* profile page */
+
+.body-content p {
+    font-size: 20px;
+    line-height: 2;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.body-content-p {
+    background-color: rgb(110, 133, 151);
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #8099AE;
+    margin-bottom: 150px;
+    padding-bottom:360px;
+
+}
+
+
+.footer-wrap-p {
+    text-align: center;
+    background: #2B2042;
+}
+
+
+
+  
+
+h3 {
+    position: absolute;
+    bottom: 10px;
+    width: 130px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 5px;
+    color: #ffffff;
+    text-align: center;
+    background: #2B2042;
+    border-bottom: 0;
+  }
+   
+
+.pimg {
+   margin: 20px;
+   float:left;
+   opacity: 0.8;
+   border: 0 none;
+   position: relative;
+   overflow: auto;
+   
+}
+
+
+
+
+
+.footer-wrap {
+    text-align: center;
+    background: #2B2042;
+}
+
+}
+
+
+}
